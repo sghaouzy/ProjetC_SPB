@@ -14,15 +14,6 @@ class BactB: public Bacterie {
 //==============================
  BactB(); 
 
-class BactB
-{
-public:
-//==============================
-//    CONSTRUCTORS
-//==============================
-
-
-
 //==============================
 //    DESTRUCTOR
 //==============================
@@ -49,7 +40,6 @@ public:
  virtual bool death();
  virtual void adaptation(float elt_nutritif);
 
- protected:
 
 
 protected:
