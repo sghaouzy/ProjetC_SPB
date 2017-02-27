@@ -11,5 +11,5 @@ Bacterie.o: Bacterie.cpp Bacterie.h
 	g++ -c Bacterie.cpp -o Bacterie.o
 BactA.o: BactA.cpp BactA.h
 	g++ -c BactA.cpp -o BactA.o
-BactB.o: BactB.cpp BacteriB.h
+BactB.o: BactB.cpp BactB.h
 	g++ -c BactB.cpp -o BactB.o
