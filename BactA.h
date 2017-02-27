@@ -47,6 +47,6 @@ class BactA: public Bacterie {
  //==============================
  //    ATTRIBUTES
  //==============================
-
+};
 
 #endif // BACTA_H
