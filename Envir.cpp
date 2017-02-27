@@ -44,6 +44,7 @@ void Envir::init_bact(){
 		list_bact[2*it] = new BactA();
 		list_bact[2*it+1] = new BactB();		
 	}
+	printf("%f",list_bact[8]->Aout());
 	
 }
 
