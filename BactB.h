@@ -4,6 +4,15 @@
 //==============================
 //    INCLUDES
 //==============================
+#include "Bacterie.h"
+
+
+class BactB: public Bacterie {
+ public:
+//==============================
+//    CONSTRUCTORS
+//==============================
+ BactB(); 
 
 class BactB
 {
@@ -13,9 +22,12 @@ public:
 //==============================
 
 
+
 //==============================
 //    DESTRUCTOR
 //==============================
+
+ ~BactB();
 
 //==============================
 //    GETTERS
@@ -33,6 +45,12 @@ public:
 //==============================
 //    PUBLIC METHODS
 //==============================
+
+ virtual bool death();
+ virtual void adaptation(float elt_nutritif);
+
+ protected:
+
 
 protected:
 //==============================
@@ -60,3 +78,4 @@ protected:
 
 
 #endif // BACTB_H
+
