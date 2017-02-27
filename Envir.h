@@ -5,6 +5,9 @@
 //    INCLUDES
 //==============================
 
+#include "Bacterie.h"
+#include "Case.h"
+
 class Envir
 {
 public:
@@ -12,15 +15,16 @@ public:
 //    CONSTRUCTORS
 //==============================
 
+Envir();
 
 //==============================
 //    DESTRUCTOR
 //==============================
+~Envir();
 
 //==============================
 //    GETTERS
 //==============================
-
 
 //==============================
 //    SETTERS
@@ -34,6 +38,11 @@ public:
 //    PUBLIC METHODS
 //==============================
 
+void init_bact();
+void init_case();
+void diffusion();
+void run();
+
 protected:
 //==============================
 //    PROTECTED METHODS
@@ -42,7 +51,11 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-
+int longueur;
+int A_init_;
+float D;
+Bacterie *list_bact[];
+Case *list_case[];
 };
 
 //==============================
