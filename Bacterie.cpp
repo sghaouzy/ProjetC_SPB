@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include "Bacterie.h"
 
 //==============================
 //    DEFINITION STATIC ATTRIBUTES
