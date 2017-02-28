@@ -56,8 +56,8 @@ protected:
 int longueur;
 int A_init_;
 float D;
-Bacterie *list_bact[];
-Case *list_case[];
+Bacterie *list_bact[10];
+Case *list_case[10];
 };
 
 //==============================
