@@ -48,9 +48,23 @@ void Envir::init_bact(){
 	
 }
 
+void Envir::sup_bact(){
+
+	for(int it=1; it<longueur; it++){
+		delete list_bact[it];
+	}
+}
+
+
 void Envir::init_case(){
 	for(int it=0; it<=longueur; it++){
 		list_case[it] = new Case();
+	}
+}
+
+void Envir::sup_case(){
+	for(int it=1; it<longueur; it++){
+		delete list_case[it];
 	}
 }
 
