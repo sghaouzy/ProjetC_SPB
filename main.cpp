@@ -31,6 +31,10 @@ envir.init_bact();
 
 //Lancement d'un pas de temps de simulation
 envir.run();
+  
+//Gestion de mémoire : suppression des bactéries et cases
+	envir.sup_bact();
+  envir.sup_case();
 
   return EXIT_SUCCESS;
 }
