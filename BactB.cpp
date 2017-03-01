@@ -6,6 +6,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
+#include <ctime>
 
 //==============================
 //    DEFINITION STATIC ATTRIBUTES
