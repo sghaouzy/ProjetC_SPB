@@ -16,7 +16,7 @@
 //==============================
 BactA::BactA(){
 	w_=Bout_;
-	type="L";
+	type=1;
 }
 
 //    CONSTRUCTOR
