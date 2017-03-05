@@ -28,7 +28,7 @@ class Bacterie {
  inline float B() const;
  inline float Cout() const;
  inline float w() const;
- inline const char* type_() const;
+ inline float type_() const;
 
 //==============================
 //    SETTERS
@@ -64,7 +64,7 @@ protected:
  float Bout_;
  float Cout_;
  float Wmin;
- const char* type;
+ float type;
 
 };
 
@@ -96,7 +96,7 @@ protected:
 	return w_;
  }
 
- inline const char* Bacterie::type_() const {
+ inline float Bacterie::type_() const {
 	return type;
  }
 
