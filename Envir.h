@@ -42,8 +42,6 @@ void init_bact();
 void init_case();
 void diffusion();
 void run();
-void sup_case();
-void sup_bact(); 
 
 protected:
 //==============================
@@ -54,10 +52,11 @@ protected:
 //    ATTRIBUTES
 //==============================
 int longueur;
+int largeur;
 int A_init_;
 float D;
-Bacterie *list_bact[10];
-Case *list_case[10];
+Bacterie ***list_bact; 
+Case ***list_case;
 };
 
 //==============================
