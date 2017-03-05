@@ -11,7 +11,7 @@
 //    CONSTRUCTORS
 //==============================
 Bacterie::Bacterie() {
-	Aout_ = 50.0;
+	Aout_ = 0.0;
 	A_ = 0.0;
 	B_ = 0.0;
 	Bout_=0.0;
@@ -22,7 +22,7 @@ Bacterie::Bacterie() {
 	RBB = 0.1;
 	RBC = 0.1;
 	Wmin = 0.001;
-	type = " ";
+	type = 0;
 }
 
 //==============================
