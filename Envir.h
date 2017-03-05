@@ -42,6 +42,7 @@ void init_bact();
 void init_case();
 void diffusion();
 void run();
+void sup_case();
 
 protected:
 //==============================
