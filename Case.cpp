@@ -28,3 +28,9 @@ Case::~Case(){
 //==============================
 //    PUBLIC METHODS
 //==============================
+
+void Case::add_met(float A, float B, float C){
+	Aout_+=A;
+	Bout_+=B;
+	Cout_+=C;
+}
