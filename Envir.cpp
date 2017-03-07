@@ -138,8 +138,15 @@ void Envir::run(){
 //la fonction de diffusion et l'inclure dans la fonction run.
 	for(int x=0; x<longueur;x++){
 		for(int y=0;y<largeur;y++){
-		//Mort des bactéries
-        		if (list_bact[x][y]->death()==1) delete list_bact[x][y];
+		//Mort des bactéries et rediffusion des métabolites dans les cases
+        		if (list_bact[x][y]->death()==1){ 
+				float A = list_bact[x][y]->Aout();
+			        float B = list_bact[x][y]->Bout();
+			        float C = list_bact[x][y]->Cout();
+			        list_case[x][y]->add_met(A,B,C);
+				delete list_bact[x][y];
+			}
+		//Si vivantes adaptation des métabolites
 			else{
          			if (list_bact[x][y]->type_()==1) list_bact[x][y]->adaptation(list_case[x][y]->Aout());
                 		else list_bact[x][y]->adaptation(list_case[x][y]->Bout());
