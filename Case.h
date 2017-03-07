@@ -36,7 +36,9 @@ inline float Cout() const;
 //==============================
 //    PUBLIC METHODS
 //==============================
-
+//Méthode qui permet de récupérer les métabolites d'une bactérie morte
+void add_met(float A, float B, float C);
+	
 protected:
 //==============================
 //    PROTECTED METHODS
